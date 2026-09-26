@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Portafolio</title>
+
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Mi Portafolio</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="inicio">
+
+            <div class="presentacion">
+
+                <h2>Hola, Mi Nombre es  Jennifer Joselyn Lopez Salinas</h2>
+
+                <p>
+                    Soy estudiante de la Carrera de Ingeniería en Ciencias de la Computacion
+                </p>
+
+                <a class="boton" href="#proyectos">
+                    Ver mis proyectos
+                </a>
+
+            </div>
+
+            <div class="foto">
+
+                <img src="img/PortafolioFt.jpg" alt="Foto de perfil">
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MÍ -->
+        <section id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy una estudiante interesada en aprender y desarrollar mis habilidades.
+                Actualmente estoy aprendiendo HTML, CSS y JavaScript
+                para crear páginas web modernas, funcionales e
+                interactivas.
+            </p>
+
+            <p>
+                Mi objetivo es continuar desarrollando mis
+                conocimientos y crear proyectos que me permitan
+                mejorar mis habilidades como desarrolladora web.
+            </p>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section id="habilidades">
+
+            <h2>Mis habilidades</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Diseño web</li>
+                <li>Desarrollo de páginas web</li>
+            </ul>
+
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section id="proyectos">
+
+            <h2>Mis proyectos</h2>
+
+            <div class="proyectos">
+
+                <article class="proyecto">
+
+                    <h3>Proyecto 1</h3>
+
+                    <p>
+                        Página web desarrollada utilizando HTML
+                        y CSS.
+                    </p>
+
+                    <a href="#" target="_blank">
+                        Ver proyecto
+                    </a>
+
+                </article>
+
+
+                <article class="proyecto">
+
+                    <h3>Proyecto 2</h3>
+
+                    <p>
+                        Proyecto web utilizando HTML, CSS y
+                        JavaScript.
+                    </p>
+
+                    <a href="#" target="_blank">
+                        Ver proyecto
+                    </a>
+
+                </article>
+
+
+                <article class="proyecto">
+
+                    <h3>Proyecto 3</h3>
+
+                    <p>
+                        Aplicación web interactiva desarrollada
+                        durante mis estudios.
+                    </p>
+
+                    <a href="#" target="_blank">
+                        Ver proyecto
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>
+                Si deseas comunicarte conmigo, puedes utilizar
+                el siguiente formulario.
+            </p>
+
+            <form id="formulario">
+
+                <label for="nombre">
+                    Nombre:
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    required
+                >
+
+
+                <label for="correo">
+                    Correo electrónico:
+                </label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    required
+                >
+
+
+                <label for="mensaje">
+                    Mensaje:
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+            <p id="respuesta"></p>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>
+            © 2026 JenniferL - Mi Portafolio
+        </p>
+
+        <p>
+            <a href="https://github.com/"
+               target="_blank">
+                GitHub
+            </a>
+        </p>
+
+    </footer>
+
+
+   <script src="script.js"></script>
+
+</body>
+
+</html>
